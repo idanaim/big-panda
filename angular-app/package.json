@@ -20,12 +20,8 @@
     "bootstrap",
     "less"
   ],
-  "author": "Nir Kaufman <nirkaufman@gmail.com>",
+  "author": "Idan Naim <idanaim@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/nirkaufman/angular-webpack-starter/issues"
-  },
-  "homepage": "https://github.com/nirkaufman/angular-webpack-starter",
   "devDependencies": {
     "angular-ui-bootstrap": "^2.5.0",
     "angular-ui-router": "^0.4.2",

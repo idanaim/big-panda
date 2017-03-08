@@ -1,5 +1,5 @@
 /**
- * Created by idannaim on 8/11/15.
+ * Created by idannaim on 8/04/17.
  */
 const modalWarning = './services/bp-modal/warning-modal.html';
 const editModal    = './services/bp-modal/edit-modal.html';

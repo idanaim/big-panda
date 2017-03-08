@@ -1,11 +1,15 @@
-@import "~angular-ui-bootstrap/ui-bootstrap-csp.css";
 
 body {
   padding: 25px;
 }
 
+.comments-container {
+  background: #ECECEC;
+  padding: 20px;
+}
 .bp-comment {
-  padding: 30px;
+  background: white;
+  padding: 23px;
   border: 2px solid #eee;
   display: flex;
   justify-content: space-between;
@@ -50,4 +54,9 @@ body {
   width: 20px;
   height: 20px;
   line-height: 18px;
+}
+
+.modal-body textarea {
+  resize: none;
+  margin-bottom: 20px;
 }

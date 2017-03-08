@@ -5,13 +5,14 @@
     <i class="close-icon fa fa-times" ng-click="$dismiss()"></i>
   </div>
   <hr>
-  <form name="Warning.warningForm">
+  <form name="editComment">
   <textarea
+    class="form-control"
     rows="5"
     ng-model="text"
   ></textarea>
     <div class="buttons-holder clearfix text-right">
-      <button type="button" class="btn "
+      <button type="button" class="btn btn-md btn-default"
               ng-click="$dismiss()">
         No
       </button>

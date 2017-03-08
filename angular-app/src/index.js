@@ -1,5 +1,4 @@
 import vendors from 'vendor';
-import 'bootstrap/dist/css/bootstrap.css';
 
 import services from 'services/services.module';
 import components from 'components/components.module';
@@ -11,7 +10,7 @@ function appConfig($stateProvider, $urlRouterProvider, $httpProvider) {
 
 }
 
-angular.module('app.starter', [
+angular.module('bigpanda.test', [
     'ui.router',
     'ui.bootstrap',
     services.name,
@@ -19,4 +18,4 @@ angular.module('app.starter', [
     components.name
 ]).config(appConfig)
 
-angular.bootstrap(document, ['app.starter']);
+angular.bootstrap(document, ['bigpanda.test']);

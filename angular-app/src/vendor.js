@@ -1,6 +1,7 @@
 //styling
 import styles       from 'index.css';
-// version
+import 'bootstrap/dist/css/bootstrap.css';
+
 //vendors
 import jquery       from 'jquery';
 import angular      from 'angular';
