@@ -1,0 +1,12 @@
+<div class="bp-comment">
+  <div>
+  <span class="email">{{ Comment.data.email }}</span>
+  <div class="description">
+    {{ Comment.data.comment }}
+  </div>
+  </div>
+  <div class="actions">
+    <span ng-click="Comment.edit()"><i class="fa fa-pencil fa-2x" aria-hidden="true"></i></span>
+    <span ng-click="Comment.delete()"><i class="fa fa-trash fa-2x" aria-hidden="true"></i></span>
+  </div>
+</div>

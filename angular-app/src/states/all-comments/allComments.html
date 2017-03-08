@@ -1,0 +1,9 @@
+<div>
+
+  <bp-comment
+    ng-repeat="comment in AllComments.comments.data track by $index"
+    delete="AllComments.deleteComment(comment)"
+    edit="AllComments.editComment(comment)"
+    data="comment">
+  </bp-comment>
+</div>

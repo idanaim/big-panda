@@ -1,0 +1,27 @@
+<div class="modal-body">
+  <div class="warning-text">
+    <i class="fa fa-trash fa-2x" aria-hidden="true"></i><span
+    class="delete-title">Edit</span>
+    <i class="close-icon fa fa-times" ng-click="$dismiss()"></i>
+  </div>
+  <hr>
+  <form name="Warning.warningForm">
+  <textarea
+    rows="5"
+    ng-model="text"
+  ></textarea>
+    <div class="buttons-holder clearfix text-right">
+      <button type="button" class="btn "
+              ng-click="$dismiss()">
+        No
+      </button>
+      <button type="button" class="btn btn-danger"
+              type="submit"
+              ng-click="$close(text)">
+        Yes
+      </button>
+    </div>
+  </form>
+</div>
+</div>
+

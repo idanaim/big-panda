@@ -1,0 +1,53 @@
+@import "~angular-ui-bootstrap/ui-bootstrap-csp.css";
+
+body {
+  padding: 25px;
+}
+
+.bp-comment {
+  padding: 30px;
+  border: 2px solid #eee;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bp-comment .email {
+  color: black;
+  font-size: 18px;
+}
+
+.bp-comment .description {
+  color: gray;
+  font-size: 17px;
+}
+
+.bp-comment .actions {
+  width: 60px;
+}
+
+.bp-comment .actions span {
+  margin-left: 5px;
+  color: gray;
+}
+
+.bp-comment .actions span:hover {
+  color: black;
+}
+
+.modal-body .delete-title {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  color: gray;
+}
+
+.modal-body .close-icon {
+  float: right;
+  border: 1px solid #cec8c8;
+  border-radius: 50%;
+  text-align: center;
+  color: gray;
+  width: 20px;
+  height: 20px;
+  line-height: 18px;
+}
